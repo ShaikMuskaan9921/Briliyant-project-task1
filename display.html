@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+</head>
+<body>
+    <h1>Submitted User Data</h1>
+    <ul>
+        {% for user in users %}
+        <li>Name: {{ user.name }}, Age: {{ user.age }}, Grade: {{ user.grade }}</li>
+        {% endfor %}
+    </ul>
+
+    {% if highest_student %}
+    <h2>Highest Grade</h2>
+    <p>Student: {{ highest_student }} with a grade of {{ highest_grade }}</p>
+    {% endif %}
+
+    <a href="/">Go to Home</a>
+</body>
+</html>
