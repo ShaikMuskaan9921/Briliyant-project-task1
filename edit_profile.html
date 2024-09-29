@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Edit Profile</title>
+</head>
+<body>
+    <h1>Edit Profile</h1>
+    <form method="POST">
+        <input type="text" name="username" placeholder="Username" value="{{ user.username }}" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <button type="submit">Update Profile</button>
+    </form>
+    <a href="{{ url_for('profile') }}">Back to Profile</a>
+</body>
+</html>
