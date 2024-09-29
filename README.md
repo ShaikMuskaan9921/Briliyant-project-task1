@@ -13,3 +13,5 @@ install flask web application:
 same process here too
 create other files like profile page,edit_profile page,register page,login page and write codes in html 
 save those in templates in flask_app file
+And write code in app1.py
+
