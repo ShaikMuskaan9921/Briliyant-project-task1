@@ -9,3 +9,7 @@ install flask web application:
 * those codes are given in the folders
   Then after give the data
   data will be displayed
+# Briliyant-project-task2
+same process here too
+create other files like profile page,edit_profile page,register page,login page and write codes in html 
+save those in templates in flask_app file
